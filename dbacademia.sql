@@ -26,9 +26,21 @@ create table tbusuarios(
 	nome varchar(20),
 	senha varchar(10));
 
+
+create table tbprodutos(
+codigo int,
+descricao varchar (150),
+valor decimal(9,2),
+dataentrada date,
+horaentrada time,
+quantidade decimal(9,2));
+
+
+
 -- visuazando tabelas
 show tables;
 
 -- visualizando estruturas
 desc tbfuncionario;
 desc tbusuarios;
+desc tbprodutos;
